@@ -1,0 +1,42 @@
+.Tasks {
+  border: 0.1px solid grey;
+  display: inline-block;
+  width: 28.7rem;
+  height: 2rem;
+  padding-top: 0.7rem;
+  background-color: rgb(202, 224, 195);
+}
+
+.OptionBar {
+}
+
+.WholeBody {
+  position: relative;
+  left: 10vh;
+  top: 15vh;
+  padding: 2rem;
+  width: 30rem;
+  background-color: #ccc;
+}
+
+.rightNav {
+  float: right;
+}
+
+.Lists {
+  max-height: 182px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+button {
+  height: 2rem;
+  border: 0px;
+  border-radius: 0.5rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.activeBtn {
+  background-color: #a7a7a7;
+}
