@@ -1,18 +1,15 @@
 .Tasks {
   border: 0.1px solid grey;
   display: inline-block;
-  width: 28.7rem;
+  width: 28.9rem;
   height: 2rem;
   padding-top: 0.7rem;
   background-color: rgb(202, 224, 195);
 }
 
-.OptionBar {
-}
-
 .WholeBody {
   position: relative;
-  left: 10vh;
+  left: 68vh;
   top: 15vh;
   padding: 2rem;
   width: 30rem;
@@ -26,10 +23,12 @@
 .Lists {
   max-height: 182px;
   overflow-y: auto;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ffffff; */
+  height: 182px;
+  background-color: rgb(161, 161, 161);
 }
 
-button {
+.optionBar button {
   height: 2rem;
   border: 0px;
   border-radius: 0.5rem;
@@ -39,4 +38,54 @@ button {
 
 .activeBtn {
   background-color: #a7a7a7;
+}
+
+.addModelWindow {
+  width: 28.9rem;
+  height: 2rem;
+}
+.wholeModelWindow {
+  position: absolute;
+  top: -10rem;
+  left: -65rem;
+  background-color: rgba(0, 0, 0, 0.562);
+  width: 100vw;
+  height: 100vh;
+  padding: 50%;
+}
+.addModelWindow {
+  position: absolute;
+  left: 73rem;
+  background-color: rgb(199, 199, 199);
+  width: 20rem;
+  height: 12rem;
+  border-radius: 0.3rem;
+}
+
+.addtaskform {
+  padding: 3rem;
+}
+
+.addtaskform input {
+  width: 10rem;
+  height: 1.5rem;
+}
+
+.addtaskform label {
+  font-size: 1.2rem;
+}
+
+.addtaskform button {
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  left: 4.5vw;
+  border: 0;
+  border-radius: 0.3rem;
+  width: 5rem;
+  height: 2rem;
+}
+
+.nodisplay {
+  display: none;
 }
