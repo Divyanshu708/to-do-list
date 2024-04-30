@@ -125,7 +125,7 @@ function TasksList({
   if (filterOption === "active") {
     sortedItems = searchResults
       .slice()
-      .sort((a, b) => Number(b.active) - Number(a.active));
+      .sort((a, b) => Number(a.active) - Number(b.active));
   }
 
   if (filterOption === "completed") {
