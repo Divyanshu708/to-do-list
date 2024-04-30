@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const demoTask = [
-  { id: 8939982739871028, task: "Wake up", time: "8:00", active: true },
-  { id: 8925285465654578, task: "Eat Breakfast", time: "10:00", active: false },
-  { id: 8123558465259647, task: "Go to Work", time: "11:00", active: true },
-  { id: 8121235534245964, task: "Do work", time: "11:30", active: false },
-];
+// const demoTask = [
+//   { id: 8939982739871028, task: "Wake up", time: "8:00", active: true },
+//   { id: 8925285465654578, task: "Eat Breakfast", time: "10:00", active: false },
+//   { id: 8123558465259647, task: "Go to Work", time: "11:00", active: true },
+//   { id: 8121235534245964, task: "Do work", time: "11:30", active: false },
+// ];
 
 function App() {
   return (
