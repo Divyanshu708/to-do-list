@@ -1,8 +1,17 @@
-.Tasks {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn {
+    @apply bg-blue-600 scale-[75%] sm:scale-100 text-white font-semibold py-2 px-3 rounded-lg hover:bg-blue-800 drop-shadow-lg;
+  }
+}
+/* .Tasks {
   border: 0.1px solid grey;
   display: inline-block;
   width: 28.9rem;
-  height: 2rem;
+  height: 2.5rem;
   padding-top: 0.7rem;
   background-color: rgb(202, 224, 195);
 }
@@ -20,13 +29,6 @@
   float: right;
 }
 
-.Lists {
-  max-height: 182px;
-  overflow-y: auto;
-  /* border: 1px solid #ffffff; */
-  height: 182px;
-  background-color: rgb(161, 161, 161);
-}
 
 .optionBar button {
   height: 2rem;
@@ -44,15 +46,7 @@
   width: 28.9rem;
   height: 2rem;
 }
-.wholeModelWindow {
-  position: absolute;
-  top: -10rem;
-  left: -65rem;
-  background-color: rgba(0, 0, 0, 0.562);
-  width: 100vw;
-  height: 100vh;
-  padding: 50%;
-}
+
 .addModelWindow {
   position: absolute;
   left: 73rem;
@@ -86,6 +80,26 @@
   height: 2rem;
 }
 
-.nodisplay {
+.deleteBtn {
+  margin-left: 0.3rem;
+}
+
+.Lists {
+  max-height: 15rem;
+  overflow-y: auto;
+  height: 20rem;
+  background-color: rgb(161, 161, 161);
+} */
+
+/* .nodisplay {
   display: none;
 }
+
+.wholeModelWindow {
+  position: relative;
+  top: -10rem;
+  left: -65rem;
+  background-color: rgba(0, 0, 0, 0.562);
+  width: 100vw;
+  height: 50vh; 
+} */
