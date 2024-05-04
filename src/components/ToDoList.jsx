@@ -10,7 +10,6 @@ export default function ToDoList() {
   const dispatch = useDispatch();
 
   const addedTasks = useSelector((state) => state.todo.addedTasks);
-  console.log(addedTasks);
 
   useEffect(
     function () {

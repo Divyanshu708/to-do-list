@@ -11,7 +11,6 @@ export default function SearchBox() {
   function handleSearch(e) {
     const searchTerm = e;
     setOnSearch(searchTerm);
-    // setSearchResults(addedTasks);
     const newData = addedTasks;
 
     const searchedResults = newData.filter((item) =>

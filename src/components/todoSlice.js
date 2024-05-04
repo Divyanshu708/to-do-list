@@ -1,8 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-// const [addedTasks, setAddedTasks] = useState([]);
-// const [addTask, onAddTask] = useState(true);
-// const [filterOption, setFilterOption] = useState("all");
-// const [searchResults, setSearchResults] = useState(addedTasks);
 
 const initialState = {
   addedTasks: [],

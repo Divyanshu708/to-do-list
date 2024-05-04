@@ -20,7 +20,6 @@ export default function AddTaskModel() {
   }
 
   function handleAddTask(e) {
-    console.log(e);
     e.preventDefault();
 
     const newTask = {
@@ -29,8 +28,6 @@ export default function AddTaskModel() {
       time: `${addTime}`,
       active: false,
     };
-
-    console.log(taskName, addTime);
 
     handleAddNewTask(newTask);
     dispatch(onAddTask(true));
