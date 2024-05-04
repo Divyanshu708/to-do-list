@@ -29,7 +29,7 @@ export default function OptionBar() {
             src={dustinBin}
             alt="Delete"
             onClick={handleDeleteTask}
-            className="scale-[60%] hover:scale-[70%] sm:scale-75  cursor-pointer sm:hover:scale-[80%] drop-shadow-lg"
+            className="scale-[90%] hover:scale-[100%] sm:scale-75  cursor-pointer sm:hover:scale-[80%] drop-shadow-lg"
           />
         </div>
 
