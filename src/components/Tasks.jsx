@@ -22,7 +22,7 @@ export default function Tasks({ data }) {
 
   return (
     <>
-      <div className="Tasks bg-white border-2 border-black/10 rounded-md my-2 p-3 text-gray-700 text-base font-semibold sm:text-xl">
+      <div className="Tasks bg-white border-2 border-black/10 rounded-md my-2 p-3 text-gray-600 text-base font-semibold sm:text-xl">
         <input
           type="checkbox"
           className="ml-1 sm:ml-3 inline"
